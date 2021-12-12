@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "blog_api"
+version = "0.1.0"
+description = ""
+authors = ["Eslam Akram <eslam_akram91@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "^3.12.4"
+Django = "^4.0"
+black = "^21.12b0"
+flake8 = "^4.0.1"
+pytz = "^2021.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
